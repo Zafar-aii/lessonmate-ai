@@ -1,34 +1,20 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LessonMate AI</title>
+    <title>Lessonmate AI</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
 </head>
 <body>
     <div class="container">
-        <h1>LessonMate AI</h1>
-        <p class="tagline">This tool helps teachers generate lesson plans in seconds, not hours.</p>
-        <form id="lesson-form">
-            <input type="text" id="class" placeholder="Class" required>
-            <input type="text" id="subject" placeholder="Subject" required>
-            <input type="text" id="topic" placeholder="Topic" required>
-            <input type="text" id="duration" placeholder="Duration" required>
-            <input type="date" id="date" placeholder="Date" required>
-            <select id="language">
-                <option value="en">English</option>
-                <option value="ur">Urdu</option>
-            </select>
-            <button type="submit">Generate Lesson Plan</button>
-        </form>
-        <div id="lesson-plan-container">
-            <div id="lesson-plan"></div>
-        </div>
-        <button id="save-pdf" style="display:none;">Save as PDF</button>
+        <header>
+            <h1>Lessonmate AI</h1>
+        </header>
+        <main>
+            <p class="tagline">The smart and simple way to generate lesson plans for your classroom.</p>
+            <a href="generator.html" class="button">Start</a>
+        </main>
     </div>
-    <script src="script.js"></script>
 </body>
 </html>
